@@ -380,6 +380,26 @@ a {
   text-align: center;
 }
 
+.hero__icon {
+  margin-top: 79px;
+}
+
+.hero__title {
+  font-family: Recursive;
+  font-size: 71px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 85.2px;
+  color: #FF7575;
+}
+
+.hero__subtitle {
+  font-family: Poppins;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 43.5px;
+}
+
 .filter {
   display: flex;
 }
