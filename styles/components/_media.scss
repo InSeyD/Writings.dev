@@ -1,0 +1,30 @@
+@media (max-width: 650px){
+    .menu__list {
+        display: none;
+    }
+    .burger {
+        display: flex;
+    }
+}
+
+@media (max-width: 420px){
+    .hero__title {
+        font-size: 50px;
+    }
+
+    .tabl__item-icon {
+        max-width: 315px;
+    }
+}
+
+@media (max-width: 830px){
+    .tabl__item {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 602px){
+    .social {
+        margin-top: 5px;
+    }
+}

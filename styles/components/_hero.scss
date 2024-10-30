@@ -1,13 +1,17 @@
 .hero {
-    position: relative;
+    position: relative;   
 
     &::after {
         position: absolute;
         content: '';
-        width: 100vw;
+        width: 100%;
         height: 3px;
         background-color: #4D4D4D;
     }
+}
+
+.hero__container {
+    align-items: normal;
 }
 
 .hero__mane {
@@ -19,6 +23,9 @@
 
 .hero__icon {
     margin-top: 79px;
+    position: relative;
+    left: 40px;
+    user-select: none;
 }
 
 .hero__title {
@@ -35,4 +42,5 @@
     font-size: 29px;
     font-weight: 400;
     line-height: 43.5px;
+    margin-bottom: 99px;
 }

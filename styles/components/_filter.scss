@@ -1,9 +1,28 @@
 .filter {
     display: flex;
+    margin-top: 20px;
+    margin-bottom: 115px;
+    align-items: center;
 }
 
 .filter__list {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter__item {
+    margin-right: 36px;
+    color: #909090;
+    cursor: pointer;
+
+    &:hover {
+        color: #FFFFFF;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .filter__grid {

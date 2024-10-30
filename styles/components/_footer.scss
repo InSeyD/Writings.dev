@@ -1,0 +1,36 @@
+.footer__container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    margin-left: 16px;
+    background-color: #4699E0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.social {
+    width: 221px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: #4699E0;
+    display: flex;
+    align-items: center;
+}
+
+.social__icon {
+    margin: 0 10px;
+}

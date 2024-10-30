@@ -1,0 +1,48 @@
+.pag {
+    display: flex;
+    margin-top: 78px;
+    align-items: center;
+    margin-bottom: 157px;
+}
+
+.pag__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pag__item {
+    font-family: Recursive;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 50px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    border: 3px transparent solid;
+
+    &:hover {
+        font-weight: 700;
+        color:#FF7575;
+        border-top-color: #FF7575;
+    }
+}
+
+.pag__button {
+    font-family: Recursive;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+
+        &--previous {
+            margin-right: 43px;
+        }
+        &--next {
+            margin-left: 43px;
+        }
+}
